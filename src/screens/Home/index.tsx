@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import { FlatList } from 'react-native';
 import { Container, Title } from './style'
-import ProductComponent, { Product } from '../../components/Product';
-// import produtcsFake from '../../assets/products.json';
-
+import ProductComponent from '../../components/Product';
+import produtcsFake from '../../assets/products.json';
+import { Product } from '../../model/Product';
 
 function Home() : React.JSX.Element {
 
@@ -12,7 +12,8 @@ function Home() : React.JSX.Element {
 
     useEffect(() => {
         async function products() {
-            // setProducts(produtcsFake);
+            console.log('Carregando produtos', produtcsFake);
+            setProducts(produtcsFake);
         } 
 
         products();

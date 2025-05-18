@@ -1,14 +1,7 @@
 
 import React from 'react';
 import { Container, Title, Description, Image, Price } from './style';
-
-export type Product = {
-  id: string;
-  name: string;
-  price: number;
-  description: string;
-  image: string;
-}
+import { Product } from '../../model/Product';
 
 function ProductComponent(product: Product) : React.JSX.Element {
   return (
@@ -16,7 +9,7 @@ function ProductComponent(product: Product) : React.JSX.Element {
       <Title>{ product.name }</Title>
       <Description>{ product.description }</Description>
       <Image source={{ uri: product.image }} />
-      <Price>{ product.price }</Price>
+      <Price>R$ { product.price }</Price>
     </Container>
   )
 }

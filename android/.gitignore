@@ -1,0 +1,4 @@
+app/.cxx
+build/
+.gradle/
+app/build/
