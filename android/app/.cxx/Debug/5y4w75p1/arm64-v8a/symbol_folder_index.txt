@@ -1,0 +1,1 @@
+/Users/ednei/Dev/react/Shopping-React-Native/android/app/build/intermediates/cxx/Debug/5y4w75p1/obj/arm64-v8a
