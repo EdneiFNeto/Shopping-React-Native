@@ -1,0 +1,1 @@
+/Users/ednei/Dev/react/shoppingcard/android/app/build/intermediates/cxx/Debug/50213f2e/obj/arm64-v8a

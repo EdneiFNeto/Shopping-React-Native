@@ -1,0 +1,3 @@
+/Users/ednei/Dev/react/shoppingcard/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt
+/Users/ednei/Dev/react/shoppingcard/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt
+/Users/ednei/Dev/react/shoppingcard/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt
